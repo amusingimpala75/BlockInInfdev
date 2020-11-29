@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.textilemc.examplemod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AddRecipesMixin",
+    "AddShapedRecipeInvoker",
+    "MixinPigFabricBlockDrop",
+    "TerrainPopulatorMixin"
+  ],
+  "client": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
